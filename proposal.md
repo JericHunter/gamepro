@@ -1,1 +1,1 @@
-The purpose of this project is to have a website for gamers to browse upcoming or current games. They will have the ability to add them to a playlist so they can show it to their friends. They will also be able to have their own accounts as well.
+The purpose of this project is to have a website for gamers to have their own accounts with the ability to bookmark games. Being able to bookmark games will allow gamers to keep up with the things they might find interesting in the moment.
