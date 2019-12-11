@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Game Pro</title>
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+</head>
+<body>
+<div id="GamerPro">
+	<svg class="Path_1" viewBox="0 0 1920 128">
+		<path fill="rgba(0,0,0,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Path_1" d="M 0 0 L 1920 0 L 1920 128 L 0 128 L 0 0 Z">
+		</path>
+	</svg>
+	<div id="Gamer_Pro">
+		<span>Gamer Pro</span>
+	</div>
+	<svg class="Ellipse_1">
+		<ellipse fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Ellipse_1" rx="29.5" ry="28" cx="29.5" cy="28">
+		</ellipse>
+	</svg>
+	<div id="Username">
+		<a href="/accounts/login/" class="btn btn-secondary ml-2">Log In</a>
+		<a href="accounts/signup/" class="btn btn-primary ml-2">Sign Up</a>
+		<span>Username</span>
+	{% block content %}
+	 {% endblock %}
+	</div>
+</div>
+</body>
+</html>
