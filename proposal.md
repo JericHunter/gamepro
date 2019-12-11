@@ -1,0 +1,1 @@
+The purpose of this project is to have a website for gamers to browse upcoming or current games. They will have the ability to add them to a playlist so they can show it to their friends. They will also be able to have their own accounts as well.
