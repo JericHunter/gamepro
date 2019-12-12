@@ -25,7 +25,8 @@ SECRET_KEY = '%y&eosi0&72l3(hudapiz1ub#x0^y9n-6%zze-pobym@8s%&b%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'jih-gamepro.herokuapp.com']
+
 
 
 # Application definition
@@ -128,6 +129,7 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
      os.path.join(BASE_DIR, "static"),
  ]
+STATIC_ROOT = os.path.join(BASE_DIR, ‘static’)
 
 
 MEDIA_URL = '/media/'
