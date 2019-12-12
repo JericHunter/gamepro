@@ -25,7 +25,7 @@ SECRET_KEY = '%y&eosi0&72l3(hudapiz1ub#x0^y9n-6%zze-pobym@8s%&b%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'jih-gamepro.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'jh-gamepro.herokuapp.com']
 
 
 
