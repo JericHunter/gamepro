@@ -1,7 +1,7 @@
 from django.urls import path
-
+from games.views import GameListView
 from . import views
 
 urlpatterns = [
-    path('', views.index, name='index'),
+    path('', GameListView.as_view(), name='game-page'),
 ]
