@@ -1,7 +1,6 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #17a2b8;
   height: 100vh;
 }
 #login .container #login-row #login-column #login-box {
@@ -33,7 +32,7 @@ body {
     box-sizing: border-box;
     border: none;
 }
-#GamerPro {
+/* #GamerPro {
     position: absolute;
     background: #E5E5E5;
     width: 1920px;
@@ -44,7 +43,7 @@ body {
     --web-view-id: GamePro;
     --web-scale-on-resize: true;
     --web-enable-deep-linking: true;
-}
+} */
 @keyframes fadein {
 
     0% {
@@ -108,7 +107,6 @@ body {
     left: 216px;
     top: 234px;
     overflow: visible;
-    cursor: pointer;
 }
 #image2 {
     position: absolute;
@@ -126,7 +124,7 @@ body {
     top: 234px;
     overflow: visible;
 }
-#image3 {
+#image4 {
     position: absolute;
     width: 205px;
     height: 281px;
@@ -134,7 +132,7 @@ body {
     top: 234px;
     overflow: visible;
 }
-#image4 {
+#image5 {
     position: absolute;
     width: 205px;
     height: 281px;
@@ -142,7 +140,7 @@ body {
     top: 234px;
     overflow: visible;
 }
-#image5{
+#image6{
     position: absolute;
     width: 205px;
     height: 281px;
@@ -150,7 +148,7 @@ body {
     top: 234px;
     overflow: visible;
 }
-#image6 {
+#image7 {
     position: absolute;
     width: 205px;
     height: 281px;
@@ -158,7 +156,7 @@ body {
     top: 632px;
     overflow: visible;
 }
-#image7 {
+#image8 {
     position: absolute;
     width: 205px;
     height: 281px;
@@ -166,7 +164,7 @@ body {
     top: 632px;
     overflow: visible;
 }
-#image8{
+#image9{
     position: absolute;
     width: 205px;
     height: 281px;
@@ -174,7 +172,7 @@ body {
     top: 632px;
     overflow: visible;
 }
-#image9 {
+#image10 {
     position: absolute;
     width: 205px;
     height: 281px;
@@ -182,7 +180,7 @@ body {
     top: 632px;
     overflow: visible;
 }
-#image10 {
+#image11 {
     position: absolute;
     width: 205px;
     height: 281px;
@@ -190,7 +188,7 @@ body {
     top: 632px;
     overflow: visible;
 }
-#image11 {
+#image12 {
     position: absolute;
     width: 205px;
     height: 281px;

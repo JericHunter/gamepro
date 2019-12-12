@@ -9,7 +9,9 @@
 <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 </head>
 <body>
-<div id="GamerPro">
+
+
+<div>
 	<svg class="Path_1" viewBox="0 0 1920 128">
 		<path fill="rgba(0,0,0,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Path_1" d="M 0 0 L 1920 0 L 1920 128 L 0 128 L 0 0 Z">
 		</path>
@@ -34,7 +36,24 @@
 
 	</div>
 
+
+	{% if starwars.image != None %}
+		<img id="image12" src="{{ starwars.image.url}}">
+		<img id="image2" src="{{ sekiro.image.url}}">
+		<img id="image3" src="{{ dmc.image.url}}">
+		<img id="image4" src="{{ apex.image.url}}">
+		<img id="image5" src="{{ mkxi.image.url}}">
+		<img id="image6" src="{{ dstranding.image.url}}">
+		<img id="image7" src="{{ tdv2.image.url}}">
+		<img id="image8" src="{{ daysgone.image.url}}">
+		<img id="image9" src="{{ borderlands.image.url}}">
+		<img id="image10" src="{{ anthem.image.url}}">
+		<img id="image11" src="{{ outerworlds.image.url}}">
+		<img id="image1" src="{{ codmw.image.url}}">
+	{% endif %}
+
 </div>
+
 {% block content %}
  {% endblock %}
 </body>
