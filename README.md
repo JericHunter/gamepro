@@ -21,7 +21,7 @@ To use the site, click on any of the games that you want to check out and you wi
 
 ## Author
 
-👤 **Jeric Hunter**
+👤 **JericHunter**
 
 * Website: Jeric Hunter
 * Github: [@JericHunter](https://github.com/JericHunter)
