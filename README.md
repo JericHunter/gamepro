@@ -21,11 +21,11 @@ To use the site, click on any of the games that you want to check out and you wi
 
 ## Author
 
-👤 **JericHunter**
+👤 **Jeric Hunter**
 
 * Website: Jeric Hunter
 * Github: [@JericHunter](https://github.com/JericHunter)
-* LinkedIn: [@Jeric Hunter](https://linkedin.com/in/Jeric Hunter)
+* LinkedIn: [@Jeric Hunter](https://www.linkedin.com/in/jeric-hunter-ab2715179/)
 
 ## Show your support
 
