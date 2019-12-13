@@ -31,6 +31,9 @@ urlpatterns = [
 
     path('accounts/', include('accounts.urls')),
 
+    #API
+    path('api/', include('api.urls')),
+
 ]
 
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
