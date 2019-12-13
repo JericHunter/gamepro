@@ -1,0 +1,179 @@
+.mediaViewInfo {
+    --web-view-name: Web 1920 – 3;
+    --web-view-id: Web_1920___3;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: Web_1920___3;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
+/* #Web_1920___3 {
+    position: absolute;
+    background: #E5E5E5;
+    width: 1920px;
+    height: 1157px;
+    background-color: rgba(255,255,255,1);
+    overflow: hidden;
+    --web-view-name: Web 1920 – 3;
+    --web-view-id: Web_1920___3;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+} */
+@keyframes fadein {
+
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+.Path_1 {
+    overflow: visible;
+    position: absolute;
+    width: 1920px;
+    height: 128px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gamer_Pro {
+    position: absolute;
+    left: 852px;
+    top: 44px;
+    overflow: visible;
+    width: 217px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 59px;
+    height: 56px;
+    left: 1716px;
+    top: 44px;
+}
+#Username {
+    position: absolute;
+    left: 1793px;
+    top: 64px;
+    overflow: visible;
+    width: 97px;
+    white-space: nowrap;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Web_1920___2.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#gamepicture {
+    position: absolute;
+    width: 513px;
+    height: 617px;
+    left: 666px;
+    top: 142px;
+    overflow: visible;
+}
+.Rectangle_2 {
+    position: absolute;
+    overflow: visible;
+    width: 1463px;
+    height: 363px;
+    left: 243px;
+    top: 780px;
+}
+#game {
+    position: absolute;
+    left: 269px;
+    top: 828px;
+    overflow: visible;
+    width: 1438px;
+    white-space: nowrap;
+    word-break: break-all;
+    white-space: normal;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(255,255,255,1);
+}
+.Rectangle_3 {
+    position: absolute;
+    overflow: visible;
+    width: 385px;
+    height: 109px;
+    left: 139px;
+    top: 432px;
+}
+.Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    width: 385px;
+    height: 109px;
+    left: 1321px;
+    top: 432px;
+}
+#Add_to_list {
+    position: absolute;
+    left: 206px;
+    top: 468px;
+    overflow: visible;
+    width: 252px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(255,255,255,1);
+}
+#Watch_Trailer {
+    position: absolute;
+    left: 1366px;
+    top: 468px;
+    overflow: visible;
+    width: 297px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(255,255,255,1);
+}
+#Return {
+    position: absolute;
+    left: 40px;
+    top: 58px;
+    overflow: visible;
+    width: 91px;
+    white-space: nowrap;
+    --web-animation: fadein 0.3s ease-out;
+    --web-action-type: page;
+    --web-action-target: Web_1920___1.html;
+    cursor: pointer;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(255,255,255,1);

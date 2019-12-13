@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-{% load static %}
+
 <html>
 <head>
 <meta charset="utf-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Game Pro</title>
-
+{% load static %}
 <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
 </head>
 <body>
@@ -39,18 +39,18 @@
 
 
 	{% if starwars.image != None %}
-		<img id="image12" src="{{ starwars.image.url}}">
-		<img id="image2" src="{{ sekiro.image.url}}">
-		<img id="image3" src="{{ dmc.image.url}}">
-		<img id="image4" src="{{ apex.image.url}}">
-		<img id="image5" src="{{ mkxi.image.url}}">
-		<img id="image6" src="{{ dstranding.image.url}}">
-		<img id="image7" src="{{ tdv2.image.url}}">
-		<img id="image8" src="{{ daysgone.image.url}}">
-		<img id="image9" src="{{ borderlands.image.url}}">
-		<img id="image10" src="{{ anthem.image.url}}">
-		<img id="image11" src="{{ outerworlds.image.url}}">
-		<img id="image1" src="{{ codmw.image.url}}">
+		<a href="{% url 'starwars' %}"><img id="image12" src="{{ starwars.image.url}}"></a>
+		<a href="{% url 'sekiro' %}"><img id="image2" src="{{ sekiro.image.url}}">
+		<a href="{% url 'dmc' %}"><img id="image3" src="{{ dmc.image.url}}">
+		<a href="{% url 'apex' %}"><img id="image4" src="{{ apex.image.url}}">
+		<a href="{% url 'mkxi' %}"><img id="image5" src="{{ mkxi.image.url}}">
+		<a href="{% url 'dstranding' %}"><img id="image6" src="{{ dstranding.image.url}}">
+		<a href="{% url 'tdv2' %}"><img id="image7" src="{{ tdv2.image.url}}">
+		<a href="{% url 'daysgone' %}"><img id="image8" src="{{ daysgone.image.url}}">
+		<a href="{% url 'borderlands' %}"><img id="image9" src="{{ borderlands.image.url}}">
+		<a href="{% url 'anthem' %}"><img id="image10" src="{{ anthem.image.url}}">
+		<a href="{% url 'outerworlds' %}"><img id="image11" src="{{ outerworlds.image.url}}">
+		<a href="{% url 'codmw' %}"><img id="image1" src="{{ codmw.image.url}}">
 	{% endif %}
 
 </div>

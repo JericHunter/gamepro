@@ -25,7 +25,7 @@ SECRET_KEY = '%y&eosi0&72l3(hudapiz1ub#x0^y9n-6%zze-pobym@8s%&b%'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'jh-gamepro.herokuapp.com']
+ALLOWED_HOSTS = ['localhost', 'jh-gamepro.herokuapp.com', '127.0.0.1']
 
 
 
@@ -126,9 +126,13 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
+if os.getenv('IS_ON_HEROKU', False):
+    STATICFILE_DIRECTORY = 'static'
+else:
+    STATICFILE_DIRECTORY = 'static/assets'
 STATICFILES_DIRS = [
-     os.path.join(BASE_DIR, "static"),
- ]
+    os.path.join(BASE_DIR, STATICFILE_DIRECTORY)
+]
 STATIC_ROOT = os.path.join(BASE_DIR, "static")
 
 
