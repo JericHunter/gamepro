@@ -30,6 +30,3 @@ To use the site, click on any of the games that you want to check out and you wi
 ## Show your support
 
 Give a ⭐️ if this project helped you!
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
