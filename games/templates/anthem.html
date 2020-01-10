@@ -33,27 +33,26 @@
 			</div>
 	</nav>
 	<img id="gamepicture" src="{{ anthem.image.url}}">
-	<svg class="Rectangle_2">
-		<rect fill="rgba(0,0,0,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="1463" height="363">
-		</rect>
-	</svg>
-	<div id="game">
+
+
+	<div class="card">
+  <div class="card-body card-body-custom">
 		<span>{{anthem.description}}</span>
 	</div>
-	<svg class="Rectangle_3">
-		<rect fill="rgba(0,0,0,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_3" rx="0" ry="0" x="0" y="0" width="385" height="109">
-		</rect>
-	</svg>
-	<svg class="Rectangle_4">
-		<rect fill="rgba(0,0,0,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_4" rx="0" ry="0" x="0" y="0" width="385" height="109">
-		</rect>
-	</svg>
-	<div id="Add_to_list">
+</div>
+
+	<div class="card">
+  <div class="card-body list-body-custom">
 		<span>Add to list</span>
-	</div>
-	<div id="Watch_Trailer">
-		<a href = "https://www.youtube.com/watch?v=ZFwylDNpgFc&list=WL&index=63&t=0s"><span>Watch Trailer</span></a>
-	</div>
+  </div>
+</div>
+
+<div class="card">
+<div class="card-body trailer-body-custom">
+	<a href = "https://www.youtube.com/watch?v=ZFwylDNpgFc&list=WL&index=63&t=0s"><span>Watch Trailer</span></a>
+</div>
+</div>
+
 	<div id="Return">
 		<a href="{% url 'index' %}"><span>Return</span></a>
 	</div>
