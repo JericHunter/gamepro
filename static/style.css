@@ -17,7 +17,21 @@ body {
   margin-top: -85px;
 }
 
-
+.mediaViewInfo {
+    --web-view-name: GamePro;
+    --web-view-id: GamePro;
+    --web-scale-on-resize: true;
+    --web-enable-deep-linking: true;
+}
+:root {
+    --web-view-ids: GamePro;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+}
 /* #GamerPro {
     position: absolute;
     background: #E5E5E5;
@@ -54,7 +68,7 @@ body {
     left: 852px;
     top: 44px;
     overflow: visible;
-    width: auto;
+    width: 217px;
     white-space: nowrap;
     text-align: left;
     font-family: Courier;
