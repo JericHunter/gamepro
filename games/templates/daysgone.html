@@ -6,33 +6,32 @@ daysgone<!DOCTYPE html>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Game Pro</title>
 {% load static %}
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="{% static 'games.css' %}">
 </head>
 <body>
-<div>
-	<svg class="Path_1" viewBox="0 0 1920 128">
-		<path fill="rgba(0,0,0,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Path_1" d="M 0 0 L 1920 0 L 1920 128 L 0 128 L 0 0 Z">
-		</path>
-	</svg>
-	<div id="Gamer_Pro">
-		<span>Gamer Pro</span>
-	</div>
-	<svg class="Ellipse_1">
-		<ellipse fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Ellipse_1" rx="29.5" ry="28" cx="29.5" cy="28">
-		</ellipse>
-	</svg>
-	<div id="Username">
-		{% if user.is_authenticated %}
-		<strong>{{user.username}}</strong>
-		<br>
-		<a href="accounts/logout/" class="btn btn-danger ml-2">Log Out</a>
-		{% else %}
-		<a href="/accounts/login/" class="btn btn-secondary ml-2">Log In</a>
-		<br>
-		<a href="/accounts/signup" class="btn btn-primary ml-2">Sign Up</a>
-		{% endif %}
+	<div>
+		<nav class="navbar  navbar-custom" >
+			<div id="Gamer_Pro">
+				<span>Game Pro</span>
+			</div>
+			<svg class="Ellipse_1">
+				<ellipse fill="rgba(255,255,255,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Ellipse_1" rx="29.5" ry="28" cx="29.5" cy="28">
+				</ellipse>
+			</svg>
+			<div id="Username">
+				{% if user.is_authenticated %}
+				<strong>{{user.username}}</strong>
+				<br>
+				<a href="accounts/logout/"   >Log Out</a>
+				{% else %}
+				<a href="/accounts/login/" >Log In</a>
+				<br>
+				<a href="/accounts/signup" >Sign Up</a>
+				{% endif %}
 
-	</div>
+			</div>
+	</nav>
 	<img id="gamepicture" src="{{ daysgone.image.url}}">
 	<svg class="Rectangle_2">
 		<rect fill="rgba(0,0,0,1)" stroke="rgba(112,112,112,1)" stroke-width="1px" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" shape-rendering="auto" id="Rectangle_2" rx="0" ry="0" x="0" y="0" width="1463" height="363">

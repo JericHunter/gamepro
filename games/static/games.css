@@ -1,0 +1,137 @@
+.navbar-custom{
+height: 140px; /* Just an example height*/
+background-color: black;
+width:auto;
+}
+.card-body-custom{
+    background-color: black;
+    position: absolute;
+    left: 200px;
+    right:200px;
+    top: 640px;
+    width:auto;
+    overflow: visible;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(255,255,255,1);
+}
+
+.list-body-custom{
+    background-color: black;
+    position: absolute;
+    left: 206px;
+    top: 295px;
+    overflow: visible;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(255,255,255,1);
+}
+.trailer-body-custom{
+    background-color: black;
+    position: absolute;
+    left: 1366px;
+    top: 295px;
+    overflow: visible;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(255,255,255,1);
+}
+
+.Path_1 {
+    overflow: visible;
+    position: absolute;
+    width: 1920px;
+    height: 128px;
+    left: 0px;
+    top: 0px;
+    transform: matrix(1,0,0,1,0,0);
+}
+#Gamer_Pro {
+    position: absolute;
+    left: 852px;
+    top: 44px;
+    overflow: visible;
+    width: 217px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgba(255,255,255,1);
+}
+.Ellipse_1 {
+    position: absolute;
+    overflow: visible;
+    width: 59px;
+    height: 56px;
+    left: 1716px;
+    top: 44px;
+}
+#Username {
+    position: absolute;
+    left: 1793px;
+    top: 64px;
+    overflow: visible;
+    width: 97px;
+    cursor: pointer;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    color: rgba(255,255,255,1);
+}
+#gamepicture {
+    position: absolute;
+    width: 513px;
+    height: 617px;
+    left: 666px;
+    top: 142px;
+    overflow: visible;
+}
+.Rectangle_4 {
+    position: absolute;
+    overflow: visible;
+    width: 385px;
+    height: 109px;
+    left: 1321px;
+    top: 432px;
+}
+
+#Watch_Trailer {
+    position: absolute;
+    left: 1366px;
+    top: 468px;
+    overflow: visible;
+    width: 297px;
+    white-space: nowrap;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    color: rgba(255,255,255,1);
+}
+#Return {
+    position: absolute;
+    left: 40px;
+    top: 58px;
+    overflow: visible;
+    width: 91px;
+    cursor: pointer;
+    text-align: left;
+    font-family: Courier;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    color: rgba(255,255,255,1);
