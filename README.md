@@ -7,7 +7,7 @@
 
 ### 🏠 [Homepage](https://jh-gamepro.herokuapp.com/)
 
-## Install
+## Install Django to try working on a django project yourself!
 
 ```sh
 python3 -m pip3 install Django
